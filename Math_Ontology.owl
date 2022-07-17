@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100">
+    <Prefix name="" IRI="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#SC_IES0000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC_IES0017"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SC_IES0018"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#SC_IES0006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SC_IES0018"/>
+            <Class IRI="#SC_IES0005"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SC_IES0007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SC_IES0018"/>
+            <Class IRI="#SC_IES0005"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#SC_IES0001"/>
+        <Class IRI="#SC_IES0000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0002"/>
+        <Class IRI="#SC_IES0000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0003"/>
+        <Class IRI="#SC_IES0001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0004"/>
+        <Class IRI="#SC_IES0001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0005"/>
+        <Class IRI="#SC_IES0002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0006"/>
+        <Class IRI="#SC_IES0002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0007"/>
+        <Class IRI="#SC_IES0002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0008"/>
+        <Class IRI="#SC_IES0007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0009"/>
+        <Class IRI="#SC_IES0007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0010"/>
+        <Class IRI="#SC_IES0007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0011"/>
+        <Class IRI="#SC_IES0007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0012"/>
+        <Class IRI="#SC_IES0007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0013"/>
+        <Class IRI="#SC_IES0012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0014"/>
+        <Class IRI="#SC_IES0012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0015"/>
+        <Class IRI="#SC_IES0008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0016"/>
+        <Class IRI="#SC_IES0008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC_IES0017"/>
+        <Class IRI="#SC_IES0008"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#SC_IES0001"/>
+        <Class IRI="#SC_IES0002"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SC_IES0005"/>
+        <Class IRI="#SC_IES0006"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SC_IES0005"/>
+        <Class IRI="#SC_IES0007"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SC_IES0006"/>
+        <Class IRI="#SC_IES0007"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#SC_IES0018"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0000</IRI>
+        <Literal>MathematicalEntity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0001</IRI>
+        <Literal>Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0002</IRI>
+        <Literal>MathematicalExpression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0003</IRI>
+        <Literal>Variable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0004</IRI>
+        <Literal>Constant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0005</IRI>
+        <Literal>Problem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0006</IRI>
+        <Literal>Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0007</IRI>
+        <Literal>Metric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0008</IRI>
+        <Literal>SustainabilityMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0009</IRI>
+        <Literal>ResponsivenessMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0010</IRI>
+        <Literal>ReiabilityMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0011</IRI>
+        <Literal>RiskMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0012</IRI>
+        <Literal>EfficiencyMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0013</IRI>
+        <Literal>EnergyEfficiencyMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0014</IRI>
+        <Literal>ManagementEfficiencyMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0015</IRI>
+        <Literal>EconomicMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0016</IRI>
+        <Literal>EnvironmentalMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0017</IRI>
+        <Literal>SocialMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SC_IES0018</IRI>
+        <Literal>isPartOf</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
