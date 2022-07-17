@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#"
+     xml:base="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0018 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0018">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>isPartOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0000">
+        <rdfs:label>MathematicalEntity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0001 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0001">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0000"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0002"/>
+        <rdfs:label>Parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0002 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0000"/>
+        <rdfs:label>MathematicalExpression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0003 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0001"/>
+        <rdfs:label>Variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0004 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0004">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0001"/>
+        <rdfs:label>Constant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0005 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0005">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0002"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0006"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007"/>
+        <rdfs:label>Problem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0006 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0006">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0018"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0005"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0002"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007"/>
+        <rdfs:label>Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0018"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0005"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0002"/>
+        <rdfs:label>Metric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0008 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0008">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007"/>
+        <rdfs:label>SustainabilityMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0009 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0009">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007"/>
+        <rdfs:label>ResponsivenessMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0010 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0010">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007"/>
+        <rdfs:label>ReiabilityMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0011">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007"/>
+        <rdfs:label>RiskMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0012">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0007"/>
+        <rdfs:label>EfficiencyMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0013 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0012"/>
+        <rdfs:label>EnergyEfficiencyMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0014 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0014">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0012"/>
+        <rdfs:label>ManagementEfficiencyMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0015 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0015">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0008"/>
+        <rdfs:label>EconomicMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0016 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0016">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0008"/>
+        <rdfs:label>EnvironmentalMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0017 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0017">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zkheirkhah/ontologies/2022/6/untitled-ontology-100#SC_IES0008"/>
+        <rdfs:label>SocialMetric</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
